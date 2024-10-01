@@ -14,6 +14,7 @@ import org.testng.annotations.DataProvider;
 public class FullScriptTest {
 	private static final Logger logger = Logger.getLogger(LandingPage.class.getName());
 	WebDriver driver = null;
+	
 	@BeforeTest
 	public void setUp() {
 		WebDriverManager.chromedriver().setup();
